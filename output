@@ -1,0 +1,451 @@
+cycles : 15 
+1879638011
+1879703533
+-1677721599
+1880162295
+1879769080
+1900806122
+1879900155
+-1660944383
+1879965686
+1880031215
+1880096752
+DEBUG: pipelineInsts[0]: 0
+DEBUG: pipelineInsts[1]: 0
+DEBUG: pipelineInsts[2]: 0
+DEBUG: pipelineInsts[3]: 0
+DEBUG: pipelineInsts[4]: 0
+DEBUG: no stall...........
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, 
+Cycle 0:
+Fetch instruction: 1879638011
+Decode instruction: 
+Execute instruction: 
+Memory instruction: 
+Writeback instruction: 
+$0:    0 $8:    0 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 0, 
+DEBUG: no stall...........
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: 
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, 
+Cycle 1:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: 
+Memory instruction: 
+Writeback instruction: 
+$0:    0 $8:    0 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 0, 
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, 
+Cycle 2:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: 
+Writeback instruction: 
+$0:    0 $8:    0 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 0, 
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, 
+Cycle 3:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: 
+$0:    0 $8:    0 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 0, 
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, 
+Cycle 4:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 5:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 6:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 7:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 8:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 9:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 10:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 11:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 12:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 13:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+DEBUG: writing back
+DEBUG: memorying
+DEBUG: no stall...........
+DEBUG: executing
+DEBUG: instruction is about to get executed: subi $8, $0, -5
+DEBUG: decoding
+DEBUG: IN setDependency: pre INST: subi $8, $0, -5
+DEBUG: setting depPreExec rt 2
+DEBUG: setting depPrePreExec rt 2
+DEBUG: fetching
+DEBUG: isTaken = 0
+DEBUG: stall value: 0
+DEBUG: no stall
+DEBUG: not stall before, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycle 14:
+Fetch instruction: 1879638011
+Decode instruction: subi $8, $0, -5
+Execute instruction: subi $8, $0, -5
+Memory instruction: subi $8, $0, -5
+Writeback instruction: subi $8, $0, -5
+$0:    0 $8:    5 $16:    0 $24:    0 
+$1:    0 $9:    0 $17:    0 $25:    0 
+$2:    0 $10:    0 $18:    0 $26:    0 
+$3:    0 $11:    0 $19:    0 $27:    0 
+$4:    0 $12:    0 $20:    0 $28:    0 
+$5:    0 $13:    0 $21:    0 $29:    0 
+$6:    0 $14:    0 $22:    0 $30:    0 
+$7:    0 $15:    0 $23:    0 $31:    0 
+
+DEBUG: not stall after, pipelineInst[0] ----> 1879638011, subi $8, $0, -5
+Cycles: 15
+Instructions Executed: 11
